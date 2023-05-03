@@ -42,6 +42,7 @@ public class PostgresDbConfig {
         dataSource.setUsername(environment.getProperty("spring.db1.datasource.username"));
         dataSource.setPassword(environment.getProperty("spring.db1.datasource.password"));
         return dataSource;
+
     }
 
 
